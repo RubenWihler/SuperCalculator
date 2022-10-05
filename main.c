@@ -40,7 +40,7 @@ void Exit()
 void Help()
 {
 	printf(COLOR_GREEN);
-	printf("Liste des commandes:\n");
+	printf("-------------------------  Liste des commandes:  -------------------------\n\n\n");
 	printf("  \033[0;35mhelp                  \033[0;32m:		affiche la liste des commandes\n");
 	printf("  \033[0;35mexit                  \033[0;32m:		quite le program\n");
 	printf("  \033[0;35mcalc \033[0;33m[n1] [sign] [n2] \033[0;32m:		permet de faire une operation\n");
